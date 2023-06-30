@@ -1,0 +1,34 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+.main{
+	border: 2px solid blue; 
+	height: 60%;
+	width: 20%;
+	background-color: black;
+}
+#result{
+	border: 2px solid red;
+	height: 15%;
+	width: 98%;
+	color: white;
+	font-size: 2rem;
+}
+.buttons{
+	border: 2px solid black;
+	height: 83%;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr ;
+	/* gap: 10px; */
+}
+button{
+	margin: 2%;
+	border-radius: 20%;
+}
+#eq{
+	grid-column: 3/5;
+}
